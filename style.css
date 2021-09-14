@@ -1,13 +1,18 @@
+.html
+{
+    scroll-behavior: smooth;
+    background: url('assests/images/pexels-isaac-taylor-1557251.jpeg'); 
+    background-position: center center;
+      background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#464646;
+}
 .body
 {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(/assests/images/pexels-isaac-taylor-1557251-jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 .sign-up-form
 {
@@ -44,4 +49,29 @@ button
     border:none;
     outline: none;
     cursor: pointer;
+}
+.signup-btn
+{
+    background-color: #1c8adb;
+}
+.google-btn
+{
+    background-color: #21afde;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img
+{
+    width: 70px;
+    margin-top: -50px;
 }
