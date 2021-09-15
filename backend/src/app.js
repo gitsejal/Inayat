@@ -8,7 +8,7 @@ app.get("/",(req,ress) => {
 });
 
 app.listen(port,()=> 
-    console.log('Express server listening on port ' +port)
+    console.log('server is listening on port ' +port)
 )
 /*var app = express();
 
